@@ -1,0 +1,29 @@
+.record {
+  display: flex;
+  align-items: center;
+}
+
+.expense {
+  flex-direction: row-reverse;
+}
+
+.expense h2 {
+  color: white;
+  background: #b53326;
+  align-self: flex-end;
+}
+.income h2 {
+  background: #107829;
+  color: white;
+}
+
+h2 {
+  max-width: 500px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
